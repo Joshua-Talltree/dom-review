@@ -5,7 +5,7 @@
 
 $('h1').click(
     function() {
-        $(this).css('background-color', 'black');
+        $(this).css('color', 'purple');
     },
 
 );
@@ -13,12 +13,16 @@ $('h1').click(
 //TODO: Write a function that causes the runner div to move to the right side of the screen when the mouse moves over it
 
 
-$('.runner').hover(
-    function() {
-        $(this).addEventListener('touchmove', 'right')
-    },
-);
+// $('.runner').on("mousemove", function() {
+//         $(this).addEventListener('touchmove', 'right')
+//     },
+// );
 
+// $('.runner').on("mousemove", function() {
+//     var vW = $(window).width();
+//     let mW = ((((event.pageX)*100)/vW).toFixed(3))-50;
+//     $("#red").css('transform', 'translateX(' +(-mW/2)+ '%)');
+// });
 //TODO: Write a function to take the value from the input and append the value onto the ul with the id of add-to-me.
 
 
