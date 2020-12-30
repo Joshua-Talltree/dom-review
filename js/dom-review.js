@@ -3,11 +3,12 @@
 //TODO: Write a function that changes the text color of the <h1> when the <h1> is clicked
 
 
+$('h1').click(
+    function() {
+        $(this).css('background-color', 'black');
+    },
 
-
-
-
-
+);
 
 //TODO: Write a function that causes the runner div to move to the right side of the screen when the mouse moves over it
 
