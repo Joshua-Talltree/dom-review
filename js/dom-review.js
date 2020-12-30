@@ -13,11 +13,11 @@ $('h1').click(
 //TODO: Write a function that causes the runner div to move to the right side of the screen when the mouse moves over it
 
 
-
-
-
-
-
+$('.runner').hover(
+    function() {
+        $(this).addEventListener('touchmove', 'right')
+    },
+);
 
 //TODO: Write a function to take the value from the input and append the value onto the ul with the id of add-to-me.
 
