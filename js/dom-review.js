@@ -12,7 +12,19 @@ $('h1').click(
 
 //TODO: Write a function that causes the runner div to move to the right side of the screen when the mouse moves over it
 
+$('.runner').on('hover', function () {
+    $(this)
+        .appendTo( $('.right-side') )
+        .unbind('hover');
+});
 
+// $('.runner').mouseenter(function(){
+//     $(this).addClass('hover');
+// });
+
+// $('.runner').mouseleave(function(){
+//     $(this).removeClass('hover');
+// });
 // $('.runner').on("mousemove", function() {
 //         $(this).addEventListener('touchmove', 'right')
 //     },
