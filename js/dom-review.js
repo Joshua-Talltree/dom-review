@@ -13,20 +13,23 @@ $('h1').click(
 //TODO: Write a function that causes the runner div to move to the right side of the screen when the mouse moves over it
 
 
-$( ".runner" ).hover(function() {
-    $(this).cursor(on event);
-    $(this).cursor(off event);
-});
-
+// $( ".runner" ).hover(function() {
+//     $(this).cursor(on event);
+//     $(this).cursor(off event);
+// });
+//
 
 //TODO: Write a function to take the value from the input and append the value onto the ul with the id of add-to-me.
 
 
 
+$(document).ready(function(){
+    $("#add-btn").click(function(){
+        $("#add-to-me").append('input');
+    });
+});
 
-
-
-
+// <ui><a href="#">New list item</a></ui>
 
 
 //TODO: Write a function that changes the font of all text to comic sans 5 seconds after the page loads
