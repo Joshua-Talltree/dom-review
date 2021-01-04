@@ -25,20 +25,20 @@ $('h1').click(
 
 $(document).ready(function(){
     $("#add-btn").click(function(){
-        $("#add-to-me").append('input');
+        $("#add-to-me").append('<li><a href="#input">James</a></li>');
     });
 });
 
-// <ui><a href="#">New list item</a></ui>
+// '<li><a href="#input">James</a></li>'
 
 
 //TODO: Write a function that changes the font of all text to comic sans 5 seconds after the page loads
 
 
 
-
-
-
+$(document).change(function() {
+    $('body').css("font-family", "comic sans 5");
+});
 
 
 
